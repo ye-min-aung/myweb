@@ -19,7 +19,7 @@ h3{
 
 .cover{
     padding: 15px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
 }
 #profile{
     margin-top: 10px;
@@ -31,4 +31,21 @@ h3{
 }
 #text{
     font-weight: 600;   
+}
+#single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.relationship{
+    background: linear-gradient(90deg, rgba(128,179,80,0.5) 0%, rgba(31,9,121,0.5) 25%, rgba(58,121,9,0.5) 50%, rgba(190,4,170,0.4990371148459384) 75%, rgba(255,136,0,0.5) 100%);
+    border-radius: 20px;
+    margin: 3rem;
+}
+#singletext{
+    font-size:3rem ;
+    font-weight: bold;
+}
+.status{
+    background-color: white;
 }
