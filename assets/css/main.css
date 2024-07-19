@@ -46,6 +46,24 @@ h3{
     font-size:3rem ;
     font-weight: bold;
 }
-.status{
-    background-color: white;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    border-radius: 10px;
+    width: 16.66%; /* Adjust the width to make the columns more compact */
+    padding: 5px; /* Reduce padding to make images more compact */
+    height: 200px; /* Fixed height */
+    overflow: hidden; /* Hide overflow to keep div height at 100px */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.col-md-4 img {
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire div while maintaining aspect ratio */
+    display: block;
 }
